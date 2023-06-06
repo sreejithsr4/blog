@@ -20,31 +20,44 @@
 </head>
 
 <body>
-  <nav id="navbar-example2" class="navbar  px-3 mb-3 sticky-top">
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">HOME</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse top" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link link-dark fw-bold" href="#about">ABOUT ME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark fw-bold" href="#scrollspyHeading2">SKILLS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark fw-bold" href="#projects">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark fw-bold" href="#contact-me">CONTAT ME</a>
+          </li>
+          
 
-    <a class="navbar-brand" href="#home">HOME</a>
-    <ul class="nav nav-pills">
-      <li class="nav-item">
-        <a class="nav-link link-dark fw-bold" href="#about">ABOUT ME</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link link-dark fw-bold" href="#scrollspyHeading2">SKILLS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link link-dark fw-bold" href="#contact-me">CONTAT ME</a>
-      </li>
+        </ul>
 
-    </ul>
+      </div>
     </div>
   </nav>
+
   <div class="background">
     <div class="container">
       <div class="row" id="home">
         <div class="col-lg-6 col-md-12 col-sm-12 name">
           <h1>HEY! I'M SREEJITH</h1>
           <H5>I'M A WEB DEVELOPER</H5>
-          <p>"Hi there! I design beautiful,engaging user experiences and intuitive user interfaces for the web.I pride myself on reliable communication and bring an easy to work with,friendly guy"</p>
-        <button>MY RESUME</button>
+          <p>"Hi there! I design beautiful,engaging user experiences and intuitive user interfaces for the web.I pride
+            myself on reliable communication and bring an easy to work with,friendly guy"</p>
+          <button class="button1">MY RESUME</button>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 image">
           <img src="./images/FB_IMG_1684738823801.jpg" alt="">
@@ -53,46 +66,36 @@
     </div>
     <div class="container col-md-12" id="about">
       <div class="about">
-        <h5>ABOUT ME</h5>
+        <h3>ABOUT ME</h3>
         <ul>
-          <li>Name : Sreejith.m</li>
+          <li>Name : Sreejith M</li>
           <li>Email : morayursreejith@gmail.com </li>
           <li>From : Malappuram</li>
           <li>Phone No : 9745978972</li>
-          <li>Education : Btech in Computer SCience</li>
+          <li>Education : Btech in Computer Science</li>
         </ul>
       </div>
 
     </div>
-    <div class="row skills" id="scrollspyHeading2">
-      <div class="card  col-md-12"
-        style="width: 20rem; background-color: rgb(247, 149, 92); box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-
-        <div class="card-body col-md-12">
-          <div class="same">
-            <i class="fa-solid fa-feather" style="color: #fcfcfd;"></i>
-            <h5 class="card-title">SKILLS</h5>
-          </div>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>BOOTSTRAP</li>
-          </ul>
-        </div>
-      </div>
-      <div class="card" style="width: 20rem; background-color:rgb(247, 149, 92) ; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-
-        <div class="card-body">
-          <div class="same">
-
-            <i class="fa-solid fa-sheet-plastic" style="color: #ffffff;"></i>
-            <h5 class="card-title">PROJECTS</h5>
-          </div>
-
-
-        </div>
-      </div>
+    <div class="container skills" id="scrollspyHeading2">
+      <h3>SKILLS</h3>
+      <Ul>
+        <li><i class="fa-brands fa-xl fa-html5" style="color: #051c42;"></i>HTML</li>
+        <li><i class="fa-brands fa-xl fa-css3-alt" style="color: #081730;"></i>CSS</li>
+        <li><i class="fa-brands fa-xl fa-bootstrap" style="color: #04142f;"></i>BOOTSTRAP</li>
+        <li><i class="fa-brands fa-xl fa-python" style="color: #04122a;"></i>PYTHON</li>
+      </Ul>
     </div>
+    <div class="container projects" id="projects">
+      <h3>PROJECTS</h3>
+      <ul>
+        <li>
+          <img src="./images/Document - Brave 6_6_2023 10_14_04 PM.png" alt="">
+        </li>
+      </ul>
+
+    </div>
+
     <div class="container col-md-12" id="contact-me">
       <h3>CONTACT ME</h3>
       <form action="">
