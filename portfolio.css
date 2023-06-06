@@ -10,9 +10,10 @@ body{
     background-color: rgb(255, 119, 7);
    
 }
-.top{
- margin-left: 800px;
-}
+/*.top{
+display: flex;
+align-items: end;
+}*/
 .background{
     background-color: rgb(243, 212, 198);
     width: 100%;
@@ -73,10 +74,11 @@ padding: 10px;
 
 }
 .skills h3{
-    padding-top: 50px;
+   
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 .skills{
-    
+    padding-top: 50px;
     height: 300px;
 
 }
@@ -96,6 +98,9 @@ padding: 10px;
 }
 .projects ul{
     list-style: none;
+}
+#contact-me h3{
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 a{
   
@@ -139,7 +144,7 @@ form{
    
 }
 input,textarea{
-    width: 500px;
+    width: 400px;
     border:none;
 }
 
@@ -147,9 +152,10 @@ button{
     margin-bottom: 5px;
 }
 .icons{
-    
+    margin-top: 30px;
     display: flex;
-    justify-content: end;
+    
+    
     
 }
 @media(max-width:600px){
@@ -163,12 +169,14 @@ button{
     input,textarea{
         width:200px;
     }
-    .footer{
-        display: block;
-    }
+   
     .about ul, .skills ul{
         font-size: 15px;
     }
+   /* .top{
+        display: block;
+        
+    }*/
    
    
 }
@@ -178,6 +186,8 @@ button{
     color:white;
     background-color: black;
     height: 100px;
+    flex-direction: column;
+    align-items: center;
 }
 h3:hover {
     box-shadow: inset 180px 0 0 0 #000a0e;
@@ -193,4 +203,11 @@ h3:hover {
     color: #0a0200;
   border: #ff7a59 solid 1px;
   background:#fff;
+  }
+.progress{
+   
+    width: 50%;
+    height: 10px;
+   
+    
   }
