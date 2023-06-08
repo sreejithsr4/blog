@@ -1,213 +1,243 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Mogra&display=swap');
-body{
+
+body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
- 
-    
 }
-.navbar{
+
+.navbar {
     background-color: rgb(255, 119, 7);
-   
+
 }
-/*.top{
-display: flex;
-align-items: end;
-}*/
-.background{
+
+.background {
     background-color: rgb(243, 212, 198);
     width: 100%;
 }
-.name{
-    height: 550px;
-}
-.name h1{
+
+.name h1 {
     font-family: 'Dancing Script', cursive;
-    font-size:100px;
+    font-size: 100px;
     font-weight: bold;
 }
-.name h5{
+
+.name h5 {
     font-family: sans-serif;
     font-size: 30px;
     padding-left: 10px;
 }
-.name p{
+
+.name p {
     padding: 30px;
 }
-.button1{
 
-        border: none;
-        background: #0a0200;
-        color: #fff;
-        padding: 10px;
-        font-size: 16px;
-        border-radius: 5px;
-        position: relative;
-        box-sizing: border-box;
-        transition: all 500ms ease; 
-      
+.button1 {
+
+    border: none;
+    background: #0a0200;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+
 }
-.container{
+
+.container {
     background-color: rgb(247, 149, 92);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 10px;
     transition: 1s;
 
 }
-.image img{
-width: 100%;
-padding: 10px;
-}
-.about{
-  
-    height: 400px;
-    padding-top: 50px;
 
+.image img {
+    width: 100%;
+    padding: 10px;
 }
-#about, #scrollspyHeading2, #projects, #contact-me{
-    width: 70%;
+
+.about {
+    padding-top: 50px;
+}
+
+#about,
+#scrollspyHeading2,
+#projects,
+#contact-me {
+    width: 80%;
     margin-top: 50px;
 }
-.projects img{
-    width:30%;
-    height: auto;
 
+.projects img {
+    width: 30%;
+    height: auto;
 }
-.skills h3{
-   
+
+.skills h3 {
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
-.skills{
-    padding-top: 50px;
-    height: 300px;
 
+.skills {
+    padding-top: 50px;
 }
-.skills ul{
+
+.skills ul {
     margin-left: 5%;
     list-style: none;
     font-size: 30px;
+    padding-bottom: 20px;
 }
-.projects h3{
+
+.projects h3 {
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-   
 }
-.projects{
-  height: 300px;
-  padding-top: 50px;
-    
+
+.projects {
+    padding-top: 50px;
 }
-.projects ul{
+
+.projects ul {
     list-style: none;
+    padding-bottom: 20px;
 }
-#contact-me h3{
+
+#contact-me h3 {
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
-a{
-  
+
+a {
+
     color: black;
     font-weight: bold;
 }
-.about ul{
-    padding-top: 30px;
-    
+
+.about ul {
     list-style: none;
     font-size: 30px;
+    padding-bottom: 20px;
 }
-.about h3{
+
+.about h3 {
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
-
-.cardcolor{
-    background-color:rgb(247, 149, 92) ;
+.cardcolor {
+    background-color: rgb(247, 149, 92);
 }
-.same{
+
+.same {
     display: flex;
 }
-i{
+
+i {
     padding-top: 5px;
     padding-right: 3px;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
-   
     align-items: start;
-    
-    
 }
-#contact-me{
-    height: 400px;
+
+#contact-me {
     margin-top: 40px;
     padding-top: 50px;
     padding-bottom: 50px;
-   
-}
-input,textarea{
-    width: 400px;
-    border:none;
 }
 
-button{
+input,
+textarea {
+    width: 400px;
+    border: none;
+}
+
+button {
     margin-bottom: 5px;
 }
-.icons{
+
+.icons {
     margin-top: 30px;
     display: flex;
-    
-    
-    
 }
-@media(max-width:600px){
-    .name h1{
+
+@media(max-width:600px) {
+    .name h1 {
         font-size: 50px;
 
     }
-    .name h5{
+
+    .name h5 {
         font-size: 15px;
     }
-    input,textarea{
-        width:200px;
+
+    input,
+    textarea {
+        width: 200px;
     }
-   
-    .about ul, .skills ul{
+
+    .about ul,
+    .skills ul,
+    .two ul {
         font-size: 15px;
+
     }
-   /* .top{
-        display: block;
-        
-    }*/
-   
-   
+
+
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: space-between;
-    color:white;
+    color: white;
     background-color: black;
     height: 100px;
     flex-direction: column;
     align-items: center;
 }
-h3:hover {
+
+#contact-me h3:hover {
     box-shadow: inset 180px 0 0 0 #000a0e;
     color: white;
-  }
-  i:hover{
+}
+#projects h3:hover {
+    box-shadow: inset 120px 0 0 0 #000a0e;
+    color: white;
+}
+.skills h3:hover {
+    box-shadow: inset 100px 0 0 0 #000a0e;
+    color: white;
+}
+.about h3:hover {
+    box-shadow: inset 140px 0 0 0 #000a0e;
+    color: white;
+}
+
+
+
+
+i:hover {
     cursor: pointer;
-  }
-  .container:hover{
+}
+
+.container:hover {
     transform: scale(1.01);
-  }
-  .button1:hover{
+}
+
+.button1:hover {
     color: #0a0200;
-  border: #ff7a59 solid 1px;
-  background:#fff;
-  }
-.progress{
-   
+    border: #ff7a59 solid 1px;
+    background: #fff;
+}
+
+.progress {
     width: 50%;
     height: 10px;
-   
-    
-  }
+}
+
+.two ul {
+    width: 100%;
+    font-size: small;
+}
