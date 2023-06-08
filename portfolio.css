@@ -71,7 +71,7 @@ body {
 }
 
 .projects img {
-    width: 30%;
+    width: 40%;
     height: auto;
 }
 
@@ -92,6 +92,9 @@ body {
 
 .projects h3 {
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.projects h4{
+    padding-top:10px;
 }
 
 .projects {
@@ -232,12 +235,5 @@ i:hover {
     background: #fff;
 }
 
-.progress {
-    width: 50%;
-    height: 10px;
-}
 
-.two ul {
-    width: 100%;
-    font-size: small;
-}
+
